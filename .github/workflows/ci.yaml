@@ -1,7 +1,6 @@
-```yaml
 name: First Pipeline
 
-on:
+'on':
   pull_request:
 
 jobs:
@@ -27,4 +26,3 @@ jobs:
     steps:
       - name: Deploy message
         run: echo "Deploy job completed!"
-```
